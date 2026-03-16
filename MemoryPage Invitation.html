@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///C:/Users/User/Desktop/intivation-card.html -->
+<html lang="hy"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MemoryPage Invitation</title>
+
+<link href="./MemoryPage Invitation_files/css2" rel="stylesheet">
+<link href="./MemoryPage Invitation_files/aos.css" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fafafa;
+color:#333;
+overflow-x:hidden;
+}
+
+/* HERO PARALLAX */
+
+.hero{
+height:100vh;
+background:url('https://i.pinimg.com/1200x/c1/61/a1/c161a1b8f41c17b3c5fed08bcc814ca7.jpg');
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+position:relative;
+}
+
+.hero::after{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.45);
+}
+
+.hero-content{
+position:relative;
+z-index:2;
+}
+
+.hero h1{
+font-size:60px;
+letter-spacing:3px;
+}
+
+.hero h2{
+margin-top:20px;
+font-weight:300;
+}
+
+/* SECTION */
+
+section{
+padding:90px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+/* CARD */
+
+.card{
+background:white;
+padding:50px;
+border-radius:25px;
+box-shadow:0 15px 35px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+/* COUNTDOWN */
+
+.countdown{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.countdown div{
+background:#f3f3f3;
+padding:20px;
+border-radius:15px;
+min-width:90px;
+font-size:20px;
+}
+
+/* TIMELINE */
+
+.timeline{
+position:relative;
+margin-top:40px;
+}
+
+.timeline::before{
+content:"";
+position:absolute;
+left:50%;
+top:0;
+width:4px;
+height:100%;
+background:#ff6b81;
+transform:translateX(-50%);
+}
+
+.timeline-item{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin:50px 0;
+}
+
+.timeline-card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 8px 25px rgba(0,0,0,0.1);
+width:40%;
+}
+
+.timeline-item:nth-child(even){
+flex-direction:row-reverse;
+}
+
+.timeline-card h3{
+color:#ff6b81;
+margin-bottom:10px;
+}
+
+/* CAROUSEL */
+
+.carousel{
+overflow:hidden;
+margin-top:60px;
+}
+
+.carousel-track{
+display:flex;
+gap:20px;
+animation:scroll 30s linear infinite;
+}
+
+.carousel img{
+width:300px;
+height:400px;
+object-fit:cover;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+@keyframes scroll{
+
+0%{
+transform:translateX(0);
+}
+
+100%{
+transform:translateX(-50%);
+}
+
+}
+
+/* RSVP */
+
+.rsvp input,
+.rsvp select{
+width:100%;
+padding:12px;
+margin-top:10px;
+border-radius:10px;
+border:1px solid #ddd;
+}
+
+.rsvp button{
+margin-top:15px;
+padding:12px 25px;
+border:none;
+background:#ff6b81;
+color:white;
+border-radius:10px;
+cursor:pointer;
+font-size:16px;
+}
+
+/* MAP */
+
+.map{
+margin-top:40px;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* FOOTER */
+
+footer{
+margin-top:80px;
+background:#111;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+</style>
+</head>
+
+<body data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0">
+
+<div class="hero">
+
+<div class="hero-content">
+<h1>Սամվել &amp; Մարի</h1>
+<h2>Հարսանեկան հրավիրատոմս</h2>
+</div>
+
+</div>
+
+<section data-aos="fade-up" class="aos-init aos-animate">
+
+<div class="card">
+
+<h2>Հարսանեկան հրավիրատոմս</h2>
+
+<p>Սիրով հրավիրում ենք ձեզ կիսելու մեր կյանքի ամենագեղեցիկ օրը։</p>
+
+<p><b>Օր:</b> 20 Օգոստոս 2026</p>
+
+<div class="countdown">
+
+<div><span id="days">156</span><br>Days</div>
+<div><span id="hours">17</span><br>Hours</div>
+<div><span id="minutes">20</span><br>Minutes</div>
+<div><span id="seconds">4</span><br>Seconds</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section data-aos="fade-up" class="aos-init aos-animate">
+
+<h2 style="text-align:center;">ԾՐԱԳԻՐ</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<div class="timeline-card">
+<h3>14։00 — Սաղմոսավանք</h3>
+<p>Պսակադրություն</p>
+</div>
+
+<img src="./MemoryPage Invitation_files/d688386dcdccbfcfb245680b9c7cc781.jpg" width="200" style="border-radius:15px;">
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-card">
+<h3>18։00 — Դվին</h3>
+<p>Ռեստորանային համալիր</p>
+</div>
+
+<img src="./MemoryPage Invitation_files/faa79ad77cd8049f82025b30d0cab6b7.jpg" width="200" style="border-radius:15px;">
+
+</div>
+
+</div>
+
+</section>
+
+<section data-aos="fade-up" class="aos-init aos-animate">
+
+<h2 style="text-align:center;margin-bottom:40px;">Հիշողություններ</h2>
+
+<div class="carousel">
+
+<div class="carousel-track">
+
+<img src="./MemoryPage Invitation_files/696e40288349d2c68150b6427fb699c2.jpg">
+<img src="./MemoryPage Invitation_files/c7df04506a4ff18e8484aba22c33e290.jpg">
+<img src="./MemoryPage Invitation_files/b95ac73495c9dbcdf56e4d7a785d5785.jpg">
+<img src="./MemoryPage Invitation_files/00f4d7c15002e8abd6ef4921474f6144.jpg">
+<img src="./MemoryPage Invitation_files/d62fa9c5ce67dcfe4e1fffd745136d18.jpg">
+
+<img src="./MemoryPage Invitation_files/696e40288349d2c68150b6427fb699c2.jpg">
+<img src="./MemoryPage Invitation_files/c7df04506a4ff18e8484aba22c33e290.jpg">
+<img src="./MemoryPage Invitation_files/b95ac73495c9dbcdf56e4d7a785d5785.jpg">
+
+</div>
+
+</div>
+
+</section>
+
+<section data-aos="zoom-in" class="aos-init aos-animate">
+
+<h2 style="text-align:center;">Ուղարկել նամակ</h2>
+
+<div class="card rsvp">
+
+<input id="name" type="text" placeholder="Ձեր անունը">
+
+<select id="answer">
+<option>Գալու եմ</option>
+<option>Չեմ կարող գալ</option>
+</select>
+
+<input id="guests" type="number" placeholder="Քանի հոգով եք գալու">
+
+<button onclick="sendMail()">Ուղարկել</button>
+
+</div>
+
+</section>
+
+<section data-aos="fade-up" class="aos-init aos-animate">
+
+<h2 style="text-align:center;">Տեղադրություն</h2>
+
+<div class="map">
+
+<iframe width="100%" height="400" style="border:0" src="./MemoryPage Invitation_files/maps.html">
+</iframe>
+
+</div>
+
+</section>
+
+<footer>
+
+MemoryPage © 2026  
+Digital Invitations &amp; Memories
+
+</footer>
+
+<script src="./MemoryPage Invitation_files/aos.js"></script>
+
+<script>
+AOS.init({duration:1200});
+</script>
+
+<script src="./MemoryPage Invitation_files/email.min.js"></script>
+
+<script>
+
+(function(){
+emailjs.init("BgMLgErVx5JRZnWI3");
+})();
+
+function sendMail(){
+
+var params = {
+name:document.getElementById("name").value,
+answer:document.getElementById("answer").value,
+guests:document.getElementById("guests").value
+};
+
+emailjs.send("service_72ft1jd","template_6ku700o",params)
+.then(function(){
+alert("Շնորհակալություն!");
+});
+
+}
+
+</script>
+
+<script>
+
+const eventDate=new Date("Aug 20, 2026 14:00:00").getTime();
+
+setInterval(function(){
+
+const now=new Date().getTime();
+const distance=eventDate-now;
+
+document.getElementById("days").innerHTML=Math.floor(distance/(1000*60*60*24));
+document.getElementById("hours").innerHTML=Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+document.getElementById("minutes").innerHTML=Math.floor((distance%(1000*60*60))/(1000*60));
+document.getElementById("seconds").innerHTML=Math.floor((distance%(1000*60))/1000);
+
+},1000);
+
+</script>
+
+
+</body></html>
